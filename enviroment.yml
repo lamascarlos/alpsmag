@@ -1,0 +1,11 @@
+name: example-environment
+
+dependencies:
+  - python>=3.4
+  - qutip
+  - scipy
+  - numpy
+  - matplotlib
+  - sfepy
+  - pip:
+- git+https://github.com/blaze/dask.git#egg=dask[complet
